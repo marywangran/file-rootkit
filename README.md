@@ -1,6 +1,7 @@
 # file-rootkit
 hide a file
 
+```bash
 [root@localhost hidefile]# ls	# 未加载模块，可以看到skinshoe
 a  afile  b  c  hide_file.ko  skinshoe  test  wu
 [root@localhost hidefile]# cat skinshoe	# 可以读出skinshoe的内容
@@ -22,4 +23,4 @@ a  afile  b  c  hide_file.ko  skinshoe  test  wu
 1111
 2222
 [root@localhost hidefile]#
-
+```
